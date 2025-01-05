@@ -4,7 +4,7 @@ Make sure you are using C++17+ when compiling. I compiled it with C++20 when tes
 
 The key phrase for the example.txt file is "lonestar." Give ./example.txt for the path, then tell it to "read," then enter "lonestar."
 
-NEVER use the same character twice.
+NEVER use the same character twice for your key phrase.
 
 The way it's set up out of the box, it will accept all 26 letters of the English alphabet, the numbers 0-9, and the special characters ,./`"&()%#-
 
