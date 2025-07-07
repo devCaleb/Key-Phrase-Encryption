@@ -39,7 +39,7 @@ map<char, string> createKey(string* phrase) {
         char letter = alphabet[i];
 
         if (y > 0) {
-            int offset = 4;
+            int offset = 4;//use this as a salt that can be chosen at program execution?
             for (int z = 0; z < y; z++) { //For the number of times we've gone through the phrase
                 for (int p = 0; p < phrase->length() - 1; p++) { //Loop through the phrase
                     if (p == z) {
